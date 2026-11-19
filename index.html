@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Виртуальный мемориал памяти учеников школы, погибших в годы Великой Отечественной войны.">
+  <title>Онлайн-мемориал | Лицей №3</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">ЛИЦЕЙ №3 <span>Виртуальный мемориал</span></a>
+      <nav aria-label="Основная навигация">
+        <a href="#memorial">Мемориал</a>
+        <a href="#history">История</a>
+        <a href="#school">Школа в годы войны</a>
+        <a href="#memory">Память сегодня</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="intro container">
+      <p class="eyebrow">Память поколений · 1941–1945</p>
+      <h1>Они учились в нашей школе.<br>Они защищали Родину.</h1>
+      <p class="lead">Виртуальный мемориал, посвящённый ученикам школы, погибшим в годы Великой Отечественной войны.</p>
+      <a class="button" href="#memorial">Перейти к мемориалу</a>
+    </section>
+
+    <section class="memorial-section" id="memorial">
+      <div class="container">
+        <p class="eyebrow light">Памяти павших</p>
+        <h2 class="light">Мемориальная доска</h2>
+        <p class="section-lead light">Выберите имя, чтобы открыть биографию.</p>
+        <div class="memorial-plaque">
+          <div class="star" aria-hidden="true">★</div>
+          <h3>ПАМЯТИ ПАВШИХ</h3>
+          <p class="plaque-years">1941 — 1945</p>
+          <div class="names-grid" id="names-list">
+            <!-- Имена будут добавлены из js/biographies.js -->
+          </div>
+          <p class="eternal-line">Вечная память героям</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section container" id="history">
+      <div class="section-heading">
+        <p class="eyebrow">История мемориала</p>
+        <h2>Как появилась первая мемориальная доска</h2>
+      </div>
+      <div class="text-card">
+        <p>Здесь будет рассказ о создании первой мемориальной доски в школе №13: когда она появилась, кто участвовал в её создании и как собирались сведения об учениках.</p>
+        <p class="source-note">Добавьте сюда подтверждённые сведения и подписи к архивным фотографиям.</p>
+      </div>
+    </section>
+
+    <section class="content-section alt-section" id="school">
+      <div class="container two-columns">
+        <div>
+          <p class="eyebrow">1941–1945</p>
+          <h2>Школа в годы Великой Отечественной войны</h2>
+          <p>Здесь разместите историю школы в военные годы, сведения об учениках и учителях, а также фотографии и документы из школьного архива.</p>
+        </div>
+        <div class="archive-placeholder">Место для архивной фотографии</div>
+      </div>
+    </section>
+
+    <section class="content-section container" id="memory">
+      <div class="section-heading">
+        <p class="eyebrow">Память продолжается</p>
+        <h2>Они остаются в нашей памяти</h2>
+      </div>
+      <div class="text-card">
+        <p>Здесь расскажите о том, как память о погибших учениках сохраняется сегодня: о митингах 9 Мая, возложении цветов и участии школьников и педагогов в памятных мероприятиях.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div><strong>Лицей №3</strong><p>Виртуальный мемориал памяти учеников</p></div>
+      <p>Помним. Гордимся. Сохраняем память.</p>
+    </div>
+  </footer>
+
+  <script src="js/biographies.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
